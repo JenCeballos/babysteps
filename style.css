@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+.box {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.header {
+    background-color: #777;
+    padding: 12px 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content img {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.5;
+}

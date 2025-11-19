@@ -1,0 +1,79 @@
+body {
+    background-color: #050f1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(7, 60px);
+    gap: 12px;
+}
+
+/* Cuadrados */
+.box {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+/* Colores del degradado */
+.c1  { background: #4d5dce; }
+.c2  { background: #5a57d1; }
+.c3  { background: #7a55d5; }
+.c4  { background: #9f55cf; }
+.c5  { background: #c053c8; }
+.c6  { background: #dd4fb6; }
+.c7  { background: #e557a4; }
+
+.c8  { background: #4653c3; }
+.c9  { background: #5b4ec5; }
+.c10 { background: #7a49c7; }
+.c11 { background: #9b48c2; }
+.c12 { background: #bd46b9; }
+.c13 { background: #d945a6; }
+.c14 { background: #e14d91; }
+
+.c15 { background: #3f49b7; }
+.c16 { background: #5843b9; }
+.c17 { background: #773ebc; }
+.c18 { background: #943bb7; }
+.c19 { background: #b235b0; }
+.c20 { background: #cf319f; }
+.c21 { background: #db3a89; }
+
+.c22 { background: #3a41ad; }
+.c23 { background: #553aae; }
+.c24 { background: #7234b0; }
+.c25 { background: #8c30ac; }
+.c26 { background: #aa2aa4; }
+.c27 { background: #c62595; }
+.c28 { background: #d22c7d; }
+
+.c29 { background: #3638a3; }
+.c30 { background: #4f31a4; }
+.c31 { background: #6d2aa5; }
+.c32 { background: #87259f; }
+.c33 { background: #a11f98; }
+.c34 { background: #bc1a88; }
+.c35 { background: #c92170; }
+
+.c36 { background: #312f97; }
+.c37 { background: #4a2898; }
+.c38 { background: #662198; }
+.c39 { background: #7c1d92; }
+.c40 { background: #96188a; }
+.c41 { background: #b1107b; }
+.c42 { background: #bd1663; }
+
+.c43 { background: #2a257f; }
+.c44 { background: #431e80; }
+.c45 { background: #5c177f; }
+.c46 { background: #731479; }
+.c47 { background: #8b0e70; }
+.c48 { background: #a70a60; }
+.c49 { background: #b70c48; }
